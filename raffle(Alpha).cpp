@@ -60,7 +60,7 @@ int main() {
     /* template for the rand()
     //EXAMPLE rand()
     std::cout << "Chances for EX_RAND,\n";
-    std::cin >> EX_RAND;
+    std::cin >> EX_MOD;
     switch (EX_MOD)
     {
     case 'd':
