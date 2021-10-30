@@ -5,10 +5,15 @@
 #include <string>
 using namespace std;
 int main() {
+
+    //made in c++ brought to you by Bjarne Stroustrup, MinGW, GitHub, Sourceforge, and Christopher Sandoval ;)
     //winning number = 8
     srand(time(0));
     //variables
     //rands
+    //test template
+    int EX_RAND;
+    //names that are actually reasonable in length
     int Ms_Dymowski = rand() % 10 + 1;
     int Christopher_Sandoval = rand() % 10 + 1;
     int Ayden_West = rand() % 10 + 1;
@@ -21,11 +26,15 @@ int main() {
     int Gianna_Carmena = rand() % 10 + 1;
     int Moses_Frias = rand() % 10 + 1;
     int James_Ceron = rand() % 10 + 1;
-    //matthew de la cuesta :) amazing friend
+    int Caiden_Chadwick = rand() % 10 + 1;
+    //long names that i couldnt bother to put with 999 underscores, section.
     int M_LONGNAME = rand() % 10 + 1;
-    //melanie martinez gawd man thats a name
     int MM_LONGNAME = rand() % 10 + 1;
+    int K_LONGNAME = rand() % 10 + 1;
     //modifiers
+    //examples
+    char EX_MOD;
+    //names that are actually reasonable in length
     char Ms_Dymowski_Modifier;
     char Christopher_Sandoval_Modifier;
     char Ayden_West_Modifier;
@@ -38,13 +47,78 @@ int main() {
     char Gianna_Carmena_Modifier;
     char Moses_Frias_Modifier;
     char James_Ceron_Modifier;
-    //his modifier for de la cuesta :) man cant get enough of how awesome he is.
+    char Caiden_Chadwick_Modifier;
+    //long names that i couldnt bother to put with 999 underscores, section.
     char M_LONGNAME_Modifier;
     char MM_LONGNAME_Modifier;
+    char K_LONGNAME_Modifier;
     //misc variables
     char yn;
     int counter = 0;
     //variables
+
+    /* template for the rand()
+    //EXAMPLE rand()
+    std::cout << "Chances for EX_RAND,\n";
+    std::cin >> EX_RAND;
+    switch (EX_MOD)
+    {
+    case 'd':
+        EX_RAND = rand() % 10 + 1;
+        break;
+    case '2':
+        EX_RAND = rand() % 10 + 2;
+        break;
+    case '3':
+        EX_RAND = rand() % 10 + 3;
+        break;
+    case '4':
+        EX_RAND = rand() % 10 + 4;
+        break;
+    case '5':
+        EX_RAND = rand() % 10 + 5;
+        break;
+    case '6':
+        EX_RAND = rand() % 10 + 6;
+        break;
+    case '7':
+        EX_RAND = rand() % 10 + 7;
+        break;
+    case '8':
+        EX_RAND = rand() % 10 + 8;
+        break;
+    case 'c':
+        EX_RAND = 0;
+        break;
+    case 'w':
+        EX_RAND = 99;
+        counter += 1;
+        break;
+    default:
+        break;
+    }
+
+
+
+    if (EX_RAND == 8) {
+        std::cout << "You got the number 8!\n";
+        std::cout << "You won EX_RAND!\n";
+        counter += 1;
+    }
+
+    else if (EX_RAND == 99) {
+        std::cout << "\n";
+    }
+
+    else if (EX_RAND == 'c') {
+        std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+    }
+
+    else {
+        std::cout << "Unfortunately you didn't get the number 8, EX_RAND\n";
+        std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+    } */
+
 
 
 //btw 0 isnt possible cuz ye
@@ -110,7 +184,7 @@ int main() {
     }
 
     else if (Ms_Dymowski == 99) {
-        std::cout << "ok lol mrs dymowski won cuz she felt like it...\n"
+        std::cout << "ok lol mrs dymowski won cuz she felt like it...\n";
         std::cout << "\n";
     }
 
@@ -125,6 +199,7 @@ int main() {
     }
 
     //do u wanna continue?
+    std::cout << "OK NOW LETS DO THIS (with actual students)";
     std::cout << "Do you want to continue Mrs.Dymowski? (y/n):\n";
     std::cin >> yn;
     if (yn == 'y') {
@@ -493,11 +568,6 @@ int main() {
                  std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
              }
 
-             else {
-                 std::cout << "Closing Program...";
-                 return -1;
-             }
-
              //heaven youngblood rand()
              std::cout << "Chances for Heaven Youngblood,\n";
              std::cin >> Heaven_Youngblood_Modifier;
@@ -814,6 +884,8 @@ int main() {
                  std::cout << "Unfortunately you didn't get the number 8, James Ceron\n";
                  std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
              }
+
+             //long name time :/
  
              //mathew rand() ;)
              std::cout << "Chances for Matthew de la Cuesta,\n";
@@ -942,6 +1014,71 @@ int main() {
                  std::cout << "Unfortunately you didn't get the number 8, Melanie Martinez-Gutierrez\n";
                  std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
              }
+
+             // kaylyn torres juarez rand()
+             std::cout << "Chances for Kaylyn Torres Juarez,\n";
+             std::cin >> K_LONGNAME_Modifier;
+             switch (K_LONGNAME_Modifier)
+             {
+             case 'd':
+                 K_LONGNAME = rand() % 10 + 1;
+                 break;
+             case '2':
+                 K_LONGNAME = rand() % 10 + 2;
+                 break;
+             case '3':
+                 K_LONGNAME = rand() % 10 + 3;
+                 break;
+             case '4':
+                 K_LONGNAME = rand() % 10 + 4;
+                 break;
+             case '5':
+                 K_LONGNAME = rand() % 10 + 5;
+                 break;
+             case '6':
+                 K_LONGNAME = rand() % 10 + 6;
+                 break;
+             case '7':
+                 K_LONGNAME = rand() % 10 + 7;
+                 break;
+             case '8':
+                 K_LONGNAME = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 K_LONGNAME = 0;
+                 break;
+             case 'w':
+                 K_LONGNAME = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (K_LONGNAME == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Kaylyn Torres Juarez!\n";
+                 counter += 1;
+             }
+
+             else if (K_LONGNAME == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (K_LONGNAME == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Kaylyn Torres Juarez\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+             //long name time over :((((
+
+
 
 
 
