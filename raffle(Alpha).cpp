@@ -11,7 +11,7 @@ int main() {
     srand(time(0));
     //variables
     //rands
-    //test template
+    //example variable, pls ignore this :)
     int EX_RAND;
     //names that are actually reasonable in length
     int Ms_Dymowski = rand() % 10 + 1;
@@ -27,12 +27,20 @@ int main() {
     int Moses_Frias = rand() % 10 + 1;
     int James_Ceron = rand() % 10 + 1;
     int Caiden_Chadwick = rand() % 10 + 1;
+    int Sydney_Cobb = rand() % 10 + 1;
+    int Jenna_Khalifa = rand() % 10 + 1;
+    int Jameson_Murphey = rand() % 10 + 1;
+    int Meredith_Valladares = rand() % 10 + 1;
+    int Alyssa_Dominguez = rand() % 10 + 1;
+    int Dyego_Ornelas = rand() % 10 + 1;
+    int Jatara_Quinn = rand() % 10 + 1;
+    int Lauren_Hernandez = rand() % 10 + 1;
     //long names that i couldnt bother to put with 999 underscores, section.
     int M_LONGNAME = rand() % 10 + 1;
     int MM_LONGNAME = rand() % 10 + 1;
     int K_LONGNAME = rand() % 10 + 1;
     //modifiers
-    //examples
+    //example variable, pls ignore this :)
     char EX_MOD;
     //names that are actually reasonable in length
     char Ms_Dymowski_Modifier;
@@ -48,6 +56,14 @@ int main() {
     char Moses_Frias_Modifier;
     char James_Ceron_Modifier;
     char Caiden_Chadwick_Modifier;
+    char Sydney_Cobb_Modifier;
+    char Jenna_Khalifa_Modifier;
+    char Jameson_Murphey_Modifier;
+    char Meredith_Valladares_Modifier;
+    char Alyssa_Dominguez_Modifier;
+    char Dyego_Ornelas_Modifier;
+    char Jatara_Quinn_Modifier;
+    char Lauren_Hernandez_Modifier;
     //long names that i couldnt bother to put with 999 underscores, section.
     char M_LONGNAME_Modifier;
     char MM_LONGNAME_Modifier;
@@ -60,7 +76,7 @@ int main() {
     /* template for the rand()
     //EXAMPLE rand()
     std::cout << "Chances for EX_RAND,\n";
-    std::cin >> EX_MOD;
+    std::cin >> EX_RAND;
     switch (EX_MOD)
     {
     case 'd':
@@ -131,7 +147,7 @@ int main() {
     std::cout << "By default all participants will have 1-10\n";
     std::cout << "You can only input '2', '3', '4', '5', '6', '7', '8' since the winning number is 8\n";
     std::cout << "If you want a student to only have 1-10 by default enter: 'd' \n";
-    std::cout << "If you want a student to not have any chances to win input: 'x' \n";
+    std::cout << "If you want a student to not have any chances to win input: 'c' \n";
     std::cout << "If you want a student to instantly win input:'w' \n";
 
     //Ms Dymowski Rand() best techer ever :)
@@ -272,7 +288,7 @@ int main() {
         std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
     }
 
-    //rand() Ayden West UwU best friend ever  BFF;)
+    //rand() Ayden West UwU best friend ever  BFF ;)
     std::cout << "Chances for Ayden West: \n";
     std::cin >> Ayden_West_Modifier;
 
@@ -335,7 +351,7 @@ int main() {
     std::cin >> Noah_McDaniel_Modifier;
 
 
-    //rand() Noah McDaniel ;;;;;;)))))
+    //rand() Noah McDaniel yes yes yes ;)
     switch (Noah_McDaniel_Modifier) {
     case 'd':
         break;
@@ -366,7 +382,7 @@ int main() {
         break;
     case 'w':
         Noah_McDaniel = 99;
-        std::cout << "DEFAULT WIN!!! (musta done somethin really good to get awarded this!)";
+        std::cout << "DEFAULT WIN!!! (musta done somethin really good to get awarded this!)\n";
         counter += 1;
         break;
 
@@ -430,7 +446,7 @@ int main() {
             }
              if (Gianna_Ballesteros == 8) {
                     std::cout << "You got the number 8!\n";
-                    std::cout << "You won Gianna Ballesteros!";
+                    std::cout << "You won Gianna Ballesteros!\n";
                     counter += 1;
                 }
 
@@ -487,7 +503,7 @@ int main() {
              }
              if (Kyleigh_Wright == 8) {
                  std::cout << "You got the number 8!\n";
-                 std::cout << "You won Kyleigh Wright!";
+                 std::cout << "You won Kyleigh Wright!\n";
                  counter += 1;
              }
 
@@ -695,7 +711,7 @@ int main() {
              }
 
 
-             //Gianna Carmena rand()
+             //Gianna Carmena rand() (dis is the new one) :)
              std::cout << "Chances for Gianna Carmena,\n";
              std::cin >> Gianna_Carmena_Modifier;
 
@@ -887,7 +903,7 @@ int main() {
 
              //long name time :/
  
-             //mathew rand() ;)
+             //mathew rand() ( gud man ;) )
              std::cout << "Chances for Matthew de la Cuesta,\n";
              std::cin >> M_LONGNAME_Modifier;
 
@@ -922,7 +938,7 @@ int main() {
                  break;
              case 'w':
                  M_LONGNAME = 99;
-                 std::cout << "DEFAULT WIN!!! (musta done somethin really good to get awarded this!)";
+                 std::cout << "DEFAULT WIN!!! (musta done somethin really good to get awarded this!)\n";
                  counter += 1;
                  break;
              default:
@@ -955,7 +971,7 @@ int main() {
              std::cin >> MM_LONGNAME_Modifier;
 
 
-             //Melanie Martinez-Gutierrez wow thats a name rand()
+             //Melanie Martinez-Gutierrez (wow thats a name) rand()
              switch (MM_LONGNAME_Modifier)
              {
              case 'd':
@@ -987,7 +1003,7 @@ int main() {
                  break;
              case 'w':
                  MM_LONGNAME = 99;
-                 std::cout << "DEFAULT WIN!!! (musta done somethin really good to get awarded this!)";
+                 std::cout << "DEFAULT WIN!!! (musta done somethin really good to get awarded this!)\n";
                  counter += 1;
                  break;
              default:
@@ -997,6 +1013,7 @@ int main() {
 
 
              if (MM_LONGNAME == 8) {
+                 //nice. 1k lines of code ;)
                  std::cout << "You got the number 8!\n";
                  std::cout << "You won Melanie Martinez-Gutierrez!";
                  counter += 1;
@@ -1079,7 +1096,565 @@ int main() {
              //long name time over :((((
 
 
+             //time for better names ;)
 
+             //Caiden Chadwick rand()
+             std::cout << "Chances for Caiden Chadwick,\n";
+             std::cin >> Caiden_Chadwick_Modifier;
+             switch (Caiden_Chadwick_Modifier)
+             {
+             case 'd':
+                 Caiden_Chadwick = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Caiden_Chadwick = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Caiden_Chadwick = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Caiden_Chadwick = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Caiden_Chadwick = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Caiden_Chadwick = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Caiden_Chadwick = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Caiden_Chadwick = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Caiden_Chadwick = 0;
+                 break;
+             case 'w':
+                 Caiden_Chadwick = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Caiden_Chadwick == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Caiden Chadwick!\n";
+                 counter += 1;
+             }
+
+             else if (Caiden_Chadwick == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Caiden_Chadwick == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Caiden Chadwick\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+             // Sydney Cobb rand()
+             std::cout << "Chances for Sydney Cobb,\n";
+             std::cin >> Sydney_Cobb_Modifier;
+             switch (Sydney_Cobb_Modifier)
+             {
+             case 'd':
+                 Sydney_Cobb = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Sydney_Cobb = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Sydney_Cobb = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Sydney_Cobb = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Sydney_Cobb = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Sydney_Cobb = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Sydney_Cobb = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Sydney_Cobb = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Sydney_Cobb = 0;
+                 break;
+             case 'w':
+                 Sydney_Cobb = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Sydney_Cobb == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Sydney Cobb!\n";
+                 counter += 1;
+             }
+
+             else if (Sydney_Cobb == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Sydney_Cobb == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Sydney Cobb\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+                 
+                 
+                 //Jenna Khalifa rand()
+                 std::cout << "Chances for Jenna Khalifa,\n";
+             std::cin >> Jenna_Khalifa_Modifier;
+             switch (Jenna_Khalifa_Modifier)
+             {
+             case 'd':
+                 Jenna_Khalifa = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Jenna_Khalifa = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Jenna_Khalifa = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Jenna_Khalifa = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Jenna_Khalifa = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Jenna_Khalifa = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Jenna_Khalifa = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Jenna_Khalifa = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Jenna_Khalifa = 0;
+                 break;
+             case 'w':
+                 Jenna_Khalifa = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Jenna_Khalifa == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Jenna Khalifa!\n";
+                 counter += 1;
+             }
+
+             else if (Jenna_Khalifa == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Jenna_Khalifa == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Jenna Khalifa\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+             //Jameson Murphey rand()
+             std::cout << "Chances for Jameson Murphey,\n"; //nice name i really dont like to write it on my keyboard tho :/
+             std::cin >> Jameson_Murphey_Modifier;
+             switch (Jameson_Murphey_Modifier)
+             {
+             case 'd':
+                 Jameson_Murphey = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Jameson_Murphey = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Jameson_Murphey = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Jameson_Murphey = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Jameson_Murphey = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Jameson_Murphey = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Jameson_Murphey = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Jameson_Murphey = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Jameson_Murphey = 0;
+                 break;
+             case 'w':
+                 Jameson_Murphey = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Jameson_Murphey == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Jameson Murphey!\n";
+                 counter += 1;
+             }
+
+             else if (Jameson_Murphey == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Jameson_Murphey == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Jameson Murphey\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+
+             //Meredith Valladares rand()  also a really good person ngl ;)
+             std::cout << "Chances for Meredith Valladares,\n";
+             std::cin >> Meredith_Valladares_Modifier;
+             switch (Meredith_Valladares_Modifier)
+             {
+             case 'd':
+                 Meredith_Valladares = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Meredith_Valladares = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Meredith_Valladares = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Meredith_Valladares = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Meredith_Valladares = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Meredith_Valladares = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Meredith_Valladares = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Meredith_Valladares = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Meredith_Valladares = 0;
+                 break;
+             case 'w':
+                 Meredith_Valladares = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Meredith_Valladares == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Meredith Valladares!\n";
+                 counter += 1;
+             }
+
+             else if (Meredith_Valladares == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Meredith_Valladares == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Meredith Valladares\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+             // rand()
+             std::cout << "Chances for Alyssa Dominguez,\n";
+             std::cin >> Alyssa_Dominguez_Modifier;
+             switch (Alyssa_Dominguez_Modifier)
+             {
+             case 'd':
+                 Alyssa_Dominguez = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Alyssa_Dominguez = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Alyssa_Dominguez = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Alyssa_Dominguez = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Alyssa_Dominguez = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Alyssa_Dominguez = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Alyssa_Dominguez = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Alyssa_Dominguez = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Alyssa_Dominguez = 0;
+                 break;
+             case 'w':
+                 Alyssa_Dominguez = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Alyssa_Dominguez == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Alyssa Dominguez!\n";
+                 counter += 1;
+             }
+
+             else if (Alyssa_Dominguez == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Alyssa_Dominguez == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Alyssa Dominguez\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+             
+
+
+             //EXAMPLE rand()
+             std::cout << "Chances for Dyego Ornelas,\n";
+             std::cin >> Dyego_Ornelas_Modifier;
+             switch (Dyego_Ornelas_Modifier)
+             {
+             case 'd':
+                 Dyego_Ornelas = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Dyego_Ornelas = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Dyego_Ornelas = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Dyego_Ornelas = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Dyego_Ornelas = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Dyego_Ornelas = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Dyego_Ornelas = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Dyego_Ornelas = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Dyego_Ornelas = 0;
+                 break;
+             case 'w':
+                 Dyego_Ornelas = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Dyego_Ornelas == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Dyego Ornelas!\n";
+                 counter += 1;
+             }
+
+             else if (Dyego_Ornelas == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Dyego_Ornelas == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Dyego Ornelas\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+
+
+             //Jatara Quinn rand()
+             std::cout << "Chances for Jatara Quinn,\n";
+             std::cin >> Jatara_Quinn_Modifier;
+             switch (Jatara_Quinn_Modifier)
+             {
+             case 'd':
+                 Jatara_Quinn = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Jatara_Quinn = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Jatara_Quinn = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Jatara_Quinn = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Jatara_Quinn = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Jatara_Quinn = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Jatara_Quinn = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Jatara_Quinn = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Jatara_Quinn = 0;
+                 break;
+             case 'w':
+                 Jatara_Quinn = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Jatara_Quinn == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Jatara Quinn!\n";
+                 counter += 1;
+             }
+
+             else if (Jatara_Quinn == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Jatara_Quinn == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Jatara Quinn\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
+
+
+
+
+             //Jatara Quinn rand()
+             std::cout << "Chances for Lauren Hernandez,\n";
+             std::cin >> Lauren_Hernandez_Modifier;
+             switch (Lauren_Hernandez_Modifier)
+             {
+             case 'd':
+                 Lauren_Hernandez = rand() % 10 + 1;
+                 break;
+             case '2':
+                 Lauren_Hernandez = rand() % 10 + 2;
+                 break;
+             case '3':
+                 Lauren_Hernandez = rand() % 10 + 3;
+                 break;
+             case '4':
+                 Lauren_Hernandez = rand() % 10 + 4;
+                 break;
+             case '5':
+                 Lauren_Hernandez = rand() % 10 + 5;
+                 break;
+             case '6':
+                 Lauren_Hernandez = rand() % 10 + 6;
+                 break;
+             case '7':
+                 Lauren_Hernandez = rand() % 10 + 7;
+                 break;
+             case '8':
+                 Lauren_Hernandez = rand() % 10 + 8;
+                 break;
+             case 'c':
+                 Lauren_Hernandez = 0;
+                 break;
+             case 'w':
+                 Lauren_Hernandez = 99;
+                 counter += 1;
+                 break;
+             default:
+                 break;
+             }
+
+
+
+             if (Lauren_Hernandez == 8) {
+                 std::cout << "You got the number 8!\n";
+                 std::cout << "You won Lauren Hernandez!\n";
+                 counter += 1;
+             }
+
+             else if (Lauren_Hernandez == 99) {
+                 std::cout << "\n";
+             }
+
+             else if (Lauren_Hernandez == 'c') {
+                 std::cout << "Apologies for your cancellation, hopefully next time you'll do great!\n";
+             }
+
+             else {
+                 std::cout << "Unfortunately you didn't get the number 8, Lauren Hernandez\n";
+                 std::cout << "Don't worry if you didn't win this time, there is always another... (hopefully)\n";
+             }
 
 
     std::cout << "\n";
@@ -1096,5 +1671,6 @@ int main() {
         std::cout << "\n";
     }
 
+    std::cout << "ok nice raffle everyone, congrats to anyone that won. and rip to anyone that lost.";
     return -1;
 }
