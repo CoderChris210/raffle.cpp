@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
+#include <vector>
 using namespace std;
 int main() {
 
@@ -12,7 +13,7 @@ int main() {
     //variables
     //rands
     //example variable, pls ignore this :)
-    int EX_RAND;
+    int EX_RAND = rand() % 10 + 1;
     //names that are actually reasonable in length
     int Ms_Dymowski = rand() % 10 + 1;
     int Christopher_Sandoval = rand() % 10 + 1;
@@ -1595,7 +1596,7 @@ int main() {
 
 
 
-             //Jatara Quinn rand()
+             //Laurden rand()
              std::cout << "Chances for Lauren Hernandez,\n";
              std::cin >> Lauren_Hernandez_Modifier;
              switch (Lauren_Hernandez_Modifier)
@@ -1630,8 +1631,6 @@ int main() {
              case 'w':
                  Lauren_Hernandez = 99;
                  counter += 1;
-                 break;
-             default:
                  break;
              }
 
